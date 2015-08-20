@@ -1,0 +1,29 @@
+{
+  "name": "collapsify-repro",
+  "version": "1.0.0",
+  "description": "Fixing wayfarer",
+  "main": "index.js",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "test": "standard && npm run deps && NODE_ENV=test node test",
+    "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "yoshuawuyts/collapsify-repro",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "wayfarer": "^4.3.1",
+    "wayfarer-to-server": "^1.0.4"
+  },
+  "devDependencies": {
+    "dependency-check": "^2.5.0",
+    "istanbul": "^0.3.18",
+    "standard": "^5.1.0",
+    "tape": "^4.2.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}

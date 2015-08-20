@@ -1,27 +1,8 @@
 # collapsify-repro
 
-Fixing wayfarer.
-
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][codecov-image]][codecov-url]
-[![Downloads][downloads-image]][downloads-url]
 [![js-standard-style][standard-image]][standard-url]
 
-## Installation
-```sh
-$ npm install collapsify-repro
-```
-
-## Usage
-```js
-const collapsifyRepro = require('collapsify-repro')
-
-collapsifyRepro()
-```
-
-## API
-### collapsify-repro
+Fixing wayfarer.
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
